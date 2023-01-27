@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="es-AR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Especialidades Gourmet - The Food Emporium</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="./images/iconos/favicon_food_emporium.png" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+</head>
+<body>
+  <!-- nav Bootstrap START -->
+  <nav class="navbar navbar-expand-lg bg-white" id="sticky">
+      <div class="container-fluid">
+        <a href="index.html"><img src="./images/iconos/logo_food_emporium.png" alt="Logo The Food Emporium" class="imagenLogo"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse navRight" id="navbarSupportedContent">
+          <ul class="navbar-nav mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="index.html">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./pages/galeria.html">Galería</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./pages/recetas.html">Recetas</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./pages/eventos.html">Eventos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./pages/tienda.html">Tienda</a>
+            </li>                
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Nosotros
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="./pages/proposito.html">Propósito</a></li>
+                <li><a class="dropdown-item" href="./pages/historia.html">Historia</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="./pages/nosotros.html">Equipo</a></li>
+              </ul>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="¿qué buscás?" aria-label="Search">
+            <button class="navSearchButton" type="submit">Buscar</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+  <!-- nav Bootstrap END -->
+
+  
+  <!-- imagen header -->
+  <header>
+      <div>
+          <img src="./images/header/header_index.webp" alt="Productos 100% naturales, sin conservantes ni aditivos">
+      </div>
+  </header>
+
+  <!-- Impulsor -->
+  <section class="separacion">
+      <h1>Tu solución en alimentos naturales elaborados <br> ¡ como en casa !</h1>
+  </section>
+
+  <!-- presentación y artículos varios sobre el negocio -->
+  <main>
+    <section class="displayOnlyMobile">
+      <div id="carouselExampleCaptions" class="carousel slide">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./images/articulos/alimentos-organicos.webp" class="d-block w-100" alt="Alimentos 100% orgánicos">
+            <div class="carousel-caption d-flex-col d-md-block">
+              <h2 class="bgArticulo">Productos 100% Orgánicos</h2>
+              <p class="bgTextoArticulo dTextoArt">Libres de conservantes, fertilizantes u otros agroquímicos</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="./images/articulos/productos_sustentables.webp" class="d-block w-100" alt="Productos sustentables para un mundo mejor">
+            <div class="carousel-caption d-flex-col d-md-block">
+              <h2 class="bgArticulo">Sustentables para un mundo mejor</h2>
+              <p class="bgTextArticulo dTextoArt">Cultivados en huertas 100% orgánicas</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="./images/articulos/apto_freezer.webp" class="d-block w-100" alt="Todos los productos son aptos para freezer">
+            <div class="carousel-caption d-flex-col d-md-block">
+              <h2 class="bgArticulo">Aptos para heladera y freezer</h2>
+              <p class="bgTextoArticulo dTextoArt">Toleran temperaturas extremas para su óptima conservación</p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        </button>
+      </div>
+    </section>
+
+    <section class="displayOnlyDesktop">
+      <article class="alignCenter">
+        <img src="./images/articulos/alimentos-organicos.webp" alt="Nuestros productos son 100% orgánicos, libres de pesticidas y conservantes" class="imagenArticulo">
+        <div>
+          <h2>100% orgánicos</h2>
+          <p>Todos nuestros productos provienen de exclusivas fincas y están libres de todo tipo de conservantes.</p>
+        </div>
+      </article>
+
+      <article class="alignCenter">
+        <img src="./images/articulos/productos_sustentables.webp" alt="Todos nuestros productos son sustentables, promoviendo una dieta saludable y cuidando el medio ambiente" class="imagenArticulo">
+        <div>
+          <h2>Sustentables</h2>
+          <p>El cuidado de nuestro planeta es una de nuestras prioridades, por ello, sólo seleccionamos materia prima libre de contaminantes</p>
+        </div>
+      </article>
+
+      <article class="alignCenter">
+        <img src="./images/articulos/apto_freezer.webp" alt="Nuestros productos son aptos para ser congelados a cualquier temperatura, sin importar la época del año" class="imagenArticulo">
+        <div>
+          <h2>Aptos para freezer</h2>
+          <p>Almacenalos a muy bajas temperaturas, inclusive congelados, sin perder sus propiedades organolépticas.</p>
+        </div>
+      </article>
+    </section>
+
+    <section class="separacion flexRow">
+      <article class="flexDirectionColumn order2 bodyArticleValor">
+        <img src="./images/iconos/delivery_van.png" alt="Consultá por nuestras entregas a domicilio y zonas de cobertura" class="iconoValor">
+        <div>
+          <h3>Delivery</h3>
+          <p>Consultá por nuestros envíos a domicilio y zonas de cobertura</p>
+        </div>
+      </article>
+
+      <article class="flexDirectionColumn order1 bodyArticleValor">
+        <img src="./images/iconos/payments.png" alt="Consultá por todos nuestros medios de pago habilitados (efectivo, tarjetas y transferencias bancarias)" class="iconoValor">
+        <div>
+          <h3>Medios de pago</h3>
+          <p>Ofrecemos varias alternativas para cubrir todas tus necesidades de pago: Efectivo, Tarjetas y Transferencias Bancarias</p>
+        </div>
+      </article>
+
+      <article class="flexDirectionColumn order3 bodyArticleValor">
+        <img src="./images/iconos/platos_a_medida.png" alt="Conocé todas nuestras alternativas para poder contar con platos hechos especialmente a tu medida" class="iconoValor">
+        <div>
+          <h3>Platos a tu medida</h3>
+          <p>En Food Emporium no tenemos fronteras y elaboramos los platos que vos nos pidas, a tu elección.</p>
+        </div>
+      </article>
+    </section>
+
+    <section>
+      <!-- form Bootstrap START -->
+      <form action="#" id="contacto">
+        <h2 class="espacioArriba mb-4">Dejanos tu mensaje</h2>
+        <div class="form-floating mb-3">
+          <input type="text" class="form-control" id="floatingInput" placeholder="nombre@ejemplo.com">
+          <label for="floatingInput">Nombre y apellido</label>
+        </div>
+        <div class="form-floating mb-3">
+          <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+          <label for="floatingInput">email</label>
+        </div>
+        <div class="form-floating mb-3">
+          <input type="tel" class="form-control" id="floatingInput" placeholder="+(54911) 1234 5678">
+          <label for="floatingInput">Teléfono</label>
+        </div>
+        <div class="form-floating mb-3">
+          <input type="text" class="form-control" id="floatingInput" placeholder="...">
+          <label for="floatingInput">Comentario</label>
+        </div>
+        <div class="flexCenterButton">
+          <button type="button" class="navSearchButton btn-light">Enviar consulta</button>
+          <button type="button" class="navSearchButton btn-light">Borrar datos</button>
+        </div>
+      </form>
+      <!-- form Bootstrap END -->
+
+      <!-- mapa ubicación google -->
+      <div class="alignCenter">
+        <h2 class="espacioArriba">¿ Dónde estamos ?</h2>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3287.512172948418!2d-58.47933532500925!3d-34.5152496528301!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb14f871c934b%3A0xc5644744077c423e!2sAv.%20del%20Libertador%201900%2C%20Vicente%20L%C3%B3pez%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1672840709907!5m2!1ses-419!2sar" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="imagenMapaGoogle"></iframe>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <!-- Links -->
+    <section>
+      <div class="order2">
+        <h4>Ayuda</h4>
+        <ul>
+          <li>
+            <a href="#">Preguntas Frecuentes</a>
+          </li>
+          <li>
+            <a href="#">Política de Privacidad</a>
+          </li>
+          <li>
+            <a href="#">Términos y Condiciones</a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="order3">
+        <h4>Sumate al equipo</h4>
+        <ul>
+          <li>
+            <a href="#">Vendé tus productos con nosotros</a>
+          </li>
+          <li>
+            <a href="#">Envianos tu CV</a>
+          </li>
+        </ul>
+      </div>
+
+      <div>
+        <h4>Contactanos</h4>
+        <ul>
+          <li>
+            <a href="#contacto">Formulario de Contacto</a>
+          </li>
+          <li>11 1234 5678</li>
+          <li>info@thefoodemporium.com</li>
+          <li>Av. del Libertador 1900 - Olivos</li>
+        </ul>
+      </div>
+    </section>
+      
+    <!-- redes sociales -->
+    <section class="flexCenter">
+      <a href="https://www.facebook.com" target="_blank"><img src="./images/iconos/facebook_icon.png" alt="Visitanos en nuestra red personal de Facebook" class="iconoRedes redes"></a>
+
+      <a href="https://www.instagram.com" target="_blank"><img src="./images/iconos/instagram_icon.png" alt="Visitanos en nuestra red personal de Instagram" class="iconoRedes redes"></a>
+      
+      <a href="https://www.linkedin.com" target="_blank"><img src="./images/iconos/linkedin_icon.png" alt="Conocé nuestro perfil profesional en LinkedIn" class="iconoRedes redes"></a>
+      
+      <a href="https://www.youtube.com" target="_blank"><img src="./images/iconos/youtube_icon.png" alt="Mirá todos nuestros videos en nuestro canal de Youtube" class="iconoRedes redes"></a>
+    </section>
+
+    <!-- Copyright -->
+    <div>
+      <p class="copyright">Copyright 2023 | The Food Emporium</p>
+    </div>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+</body>
+</html>

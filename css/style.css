@@ -1,0 +1,732 @@
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@600&family=Quicksand:wght@300;500;700&display=swap');
+
+/* ajustes generales */
+*{
+    font-family: 'Quicksand', sans-serif;
+}
+
+
+/* ===================================================================== */
+/* ============================= MOBILE ================================ */
+/* ===================================================================== */
+
+body{
+    background-image: url(../images/patterns/main_logo_pattern_3.png);
+    background-repeat: repeat;
+}
+    body header div img{
+        width: 100%;
+        height: 55vh;
+        object-fit: cover;
+    }
+    body main{
+        width: 90%;
+        background-color: rgb(255,255,255);
+        margin: 30px auto;
+        padding: 15px;
+    }
+    body main section article div{
+        margin: auto 25px;
+    }
+    body main section form{
+        display: flex;
+        flex-direction: column;
+        align-items: stretch;
+        justify-content: space-around;
+    }
+    body nav ul li a{
+        margin: 0 7px;
+        font-family: 'Merienda', cursive;
+    }
+
+footer{
+    background-color: rgba(229, 229, 229);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px 0px;
+}
+    footer section{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        width: 100%;
+        margin-top: 25px;
+    }
+        footer div{
+           display: flex;
+           flex-direction: column;
+           align-items: center;
+           justify-content: center;
+        }
+        footer div ul{
+            height: 15vh;
+            list-style: none;
+            line-height: 1.6rem;
+            padding-left: 0rem;
+        }
+        footer div a{
+            text-decoration: none;
+            font-size: 1rem;
+        }
+        footer li{
+            font-size: 1rem;
+            text-align: center;
+        }
+    
+h1{
+    font-family: 'Merienda', cursive;
+    font-size: 2.1rem;
+    text-align: center;
+    width: 70%;
+    margin: 0px auto;
+    color: rgb(26,24,23);
+}
+h2{
+    font-family: 'Merienda', cursive;
+    font-size: 1.9rem;
+    text-align: center;
+    margin-bottom: 8px;
+    color: rgb(26,24,23);
+}
+h3{
+    font-family: 'Merienda', cursive;
+    font-size: 1.7rem;
+    text-align: center;
+    margin-bottom: 8px;
+    color: rgb(26,24,23);
+}
+h4{
+    font-family: 'Merienda', cursive;
+    font-size: 1.5rem;
+    text-align: left;
+    margin: 10px 0px;
+    color: rgb(26,24,23);
+}
+p{
+    font-size: 1rem;
+    line-height: 1.4rem;
+    font-weight: 500;
+    text-align: center;
+    color: rgb(26,24,23);
+}
+
+
+.navSearchButton{
+    background-color: rgb(26,24,23);
+    color: white;
+    font-family: 'Merienda', cursive;
+    border-radius: 8px;
+    border-color: rgb(232, 230, 230);
+    border-width: 1px;
+    padding: 8px;
+}
+.logoMobile{
+    justify-content: center;
+}
+.bgArticulo{
+    background-color: rgba(26,24,23,0.8);
+    padding: 10px;
+}
+.bgTextArticulo{
+    color: rgb(26,24,23);
+    background-color: rgba(255, 255, 255, 0.80);
+}
+.dTextoArt{
+    display: none;
+}
+.flexNosotros section figure img{
+    border-radius: 10%;
+    margin: 10px;
+}
+.videoReceta{
+    width: 100%;
+}
+.imagenReceta{
+    width: 100%;
+}
+.alignCenter{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.bodyArticle{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;    
+}
+.bodyArticleValor{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;    
+}
+.imagenHistoria{
+    width: 100%;
+    height: 35vh;
+    object-fit: cover;
+}
+.imagenLogo{
+    width: 100px;
+}
+.imagenArticulo{
+    width: 200px;
+    object-fit: cover;
+    border: 3px solid rgb(229,229,229);
+    padding: 2px;
+    margin: 15px;
+}
+.imagenProducto{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border: solid 10px rgb(229,229,229);
+    margin: 8px;
+}
+.flexCenterButton{
+    display: flex;
+    justify-content: center; 
+    margin: 15px;
+    gap: 25px;
+}
+.imagenMapaGoogle{
+    width: 300px;
+    height: 300px;
+    margin: 15px;
+}
+.historiaByN{
+    filter: grayscale(0.8);
+}
+.displayOnlyDesktop{
+    display: none;
+}
+.iconoRedes{
+    width: 35px;
+    margin: 15px 10px;
+}
+.iconoValor{
+    width: 40px;
+    margin: 20px 10px;
+}
+.flexDirectionColumn{
+    flex-direction: column;
+}
+.flexWrap{
+    flex-wrap: wrap;
+}
+.flexCenter{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.copyright{
+    font-size: 0.7rem;
+}
+.button{
+    font-family: 'Quicksand', sans-serif;
+    letter-spacing: 0.10rem;
+    font-weight: 300;
+    text-align: center;
+    color: rgb(255,255,255);
+    background-color: rgb(26,24,23);
+    padding: 5px;
+    margin: 6px 5px;
+    border-width: 0px;
+    border-radius: 8px;
+    font-size: 0.75rem;
+    width: 30%;
+}
+.separacionRecetas{
+    padding: 30px;
+}
+.separacion{
+    margin: 25px auto;
+    background-color: rgba(255, 255, 255, 0.65);
+    width: 90%;
+}
+.espacioArriba{
+    margin-top: 50px;
+}
+.order1{
+    order: 1;
+}
+.order2{
+    order: 2;
+}
+.order3{
+    order: 3;
+}
+.bloque{
+    display: block;
+}
+.flexNosotros{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.flexProductos{
+    display: flex;
+    flex-direction: column;
+}
+.botonProductos{
+    width: 50%;
+    margin: auto;
+}
+.textCenter{
+    text-align: center;
+}
+.ancho-100{
+    width: 100%;
+}
+.ancho-20{
+    width: 20%;
+}
+.textoContacto{
+    font-size: 0.75rem;
+    line-height: 1rem;
+    font-weight: 500;
+    text-align: center;
+    color: rgb(26,24,23); 
+}
+.precioProductos{
+    color: blue;
+    text-align: center;
+    margin-bottom: 15px;
+}
+#galeria img{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+#galeria{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(33,1fr);
+    gap: 7px;
+    grid-template-areas:
+    "imgAme1"
+    "imgAme2"
+    "imgAme3"
+    "imgAme4"
+    "imgAme5"
+    "imgAme6"
+    "imgAme7"
+    "imgAme8"
+    "imgAme9"
+    "imgAsi1"
+    "imgAsi2"
+    "imgAsi3"
+    "imgAsi4"
+    "imgAsi5"
+    "imgAsi6"
+    "imgAsi7"
+    "imgAsi8"
+    "imgAsi9"
+    "imgAsi10"
+    "imgAsi11"
+    "imgAsi12"
+    "imgMed1"
+    "imgMed2"
+    "imgMed3"
+    "imgMed4"
+    "imgMed5"
+    "imgMed6"
+    "imgMed7"
+    "imgMed8"
+    "imgMed9"
+    "imgMed10"
+    "imgMed11"
+    "imgMed12";
+}
+
+.imgAme1{
+    grid-area: imgAme1;
+}
+.imgAme2{
+    grid-area: imgAme2;
+}
+.imgAme3{
+    grid-area: imgAme3;
+}
+.imgAme4{
+    grid-area: imgAme4;
+}
+.imgAme5{
+    grid-area: imgAme5;
+}
+.imgAme6{
+    grid-area: imgAme6;
+}
+.imgAme7{
+    grid-area: imgAme7;
+}
+.imgAme8{
+    grid-area: imgAme8;
+}
+.imgAme9{
+    grid-area: imgAme9;
+}
+.imgAsi1{
+    grid-area: imgAsi1;
+}
+.imgAsi2{
+    grid-area: imgAsi2;
+}
+.imgAsi3{
+    grid-area: imgAsi3;
+}
+.imgAsi4{
+    grid-area: imgAsi4;
+}
+.imgAsi5{
+    grid-area: imgAsi5;
+}
+.imgAsi6{
+    grid-area: imgAsi6;
+}
+.imgAsi7{
+    grid-area: imgAsi7;
+}
+.imgAsi8{
+    grid-area: imgAsi8;
+}
+.imgAsi9{
+    grid-area: imgAsi9;
+}
+.imgAsi10{
+    grid-area: imgAsi10;
+}
+.imgAsi11{
+    grid-area: imgAsi11;
+}
+.imgAsi12{
+    grid-area: imgAsi12;
+}
+.imgMed1{
+    grid-area: imgMed1;
+}
+.imgMed2{
+    grid-area: imgMed2;
+}
+.imgMed3{
+    grid-area: imgMed3;
+}
+.imgMed4{
+    grid-area: imgMed4;
+}
+.imgMed5{
+    grid-area: imgMed5;
+}
+.imgMed6{
+    grid-area: imgMed6;
+}
+.imgMed7{
+    grid-area: imgMed7;
+}
+.imgMed8{
+    grid-area: imgMed8;
+}
+.imgMed9{
+    grid-area: imgMed9;
+}
+.imgMed10{
+    grid-area: imgMed10;
+}
+.imgMed11{
+    grid-area: imgMed11;
+}
+.imgMed12{
+    grid-area: imgMed12;
+}
+
+
+/* ===================================================================== */
+/* ============================= TABLET ================================ */
+/* ===================================================================== */
+
+@media (min-width:768px){
+    body main section article{
+        flex-direction: row;
+    }
+    body main section form{
+        display: flex;
+        flex-direction: column;
+        align-items: stretch;
+        justify-content: space-around;
+    }
+    body nav{
+        z-index: 10;
+    }
+    footer section{
+        flex-direction: row;
+    }
+    h1{
+        font-size: 2.4rem;
+    }    
+    h2{
+        font-size: 1.7rem;
+    }    
+    h3{
+        font-size: 1.5rem;
+    }    
+    h4{
+        font-size: 1.3rem;
+    }    
+    p{
+        font-size: 1.1rem;
+        line-height: 1.4rem;
+    }
+
+
+    .displayOnlyMobile{
+        display: none;
+    }
+    .displayOnlyDesktop{
+        display: flex;
+        justify-content: center;
+    }
+    .bodyArticle{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+        width: 100%;    
+    }
+    .bodyArticleValor{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        width: 100%;    
+    }
+    .flexRow{
+        display: flex;
+        flex-direction: row;
+        align-items: baseline;
+    }
+    .flexRowForm{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    .imagenMapaGoogle{
+        width: 230px;
+        height: 230px;
+    }  
+    .imagenMapaGoogle{
+        width: 600px;
+        height: 400px;
+    }
+    .dTextoArt{
+        display: flex;
+        color: rgb(26,24,23);
+        background-color: rgba(255, 255, 255, 0.80);
+        justify-content: center;
+    }
+
+    
+    #galeria{
+        grid-template-columns: repeat(3,1fr);
+        grid-template-rows: repeat(11,1fr);
+        grid-template-areas:
+        "imgAme1 imgAme6 imgAme3"
+        "imgAme4 imgAme5 imgAme2"
+        "imgAme7 imgAme8 imgAme9"
+        "imgAsi1 imgAsi2 imgAsi8"
+        "imgAsi4 imgAsi5 imgAsi6"
+        "imgAsi7 imgAsi3 imgAsi9"
+        "imgAsi10 imgAsi11 imgAsi12"
+        "imgMed1 imgMed2 imgMed3"
+        "imgMed4 imgMed5 imgMed6"
+        "imgMed7 imgMed8 imgMed9"
+        "imgMed10 imgMed11 imgMed12";
+    }
+    #sticky{
+        position: sticky;
+        top: 0;
+    }
+}
+
+
+
+/* ===================================================================== */
+/* ============================= DESKTOP =============================== */
+/* ===================================================================== */
+
+@media (min-width:992px){
+    body main section{
+        width: 100%;
+    }
+    body main section article div{
+        width: 100%;
+        margin: 0;
+    }
+    body nav ul li a{
+        transition-property: color;
+        transition-duration: 0.3s;
+    }
+    body nav ul li a:hover{
+        color: rgb(0, 0, 0);
+        text-decoration: solid underline 2px;
+        text-underline-offset: 8px;
+        text-decoration-color: rgb(0, 0, 0);
+    }
+    body section{
+        display: flex;
+        justify-content:space-around ;
+    }
+    section.separacion.flexRow{
+        background-color: rgba(229, 229, 229, 0.20);
+    }
+    footer div a{
+        font-size: 1rem;
+    }
+    footer li {
+        font-size: 1rem;
+    }
+    h1{
+        font-size: 2.4rem;
+    }    
+    h2{
+        font-size: 1.8rem;
+    }    
+    h3{
+        font-size: 1.6rem;
+    }    
+    h4{
+        font-size: 1.4rem;
+    }    
+    p{
+        font-size: 1.2rem;
+        line-height: 1.8rem;
+    }
+
+
+    .navSearchButton:hover{
+        background-color: white;
+        color: rgb(26,24,23);
+    }
+    .w-45{
+        width: 45%;
+    }
+    .videoReceta{
+        width: 100%;
+    }
+    .flexDirRecetaRow{
+        display: flex;
+    }
+    .flexDirRecetaCol{
+        display: flex;
+        flex-direction: column;
+    }
+    .alignCenterReceta{
+        align-items: center;
+    }
+    .navRight{
+        justify-content: flex-end;
+    }
+    .textLeft{
+        text-align: left;
+    }
+    .separacion{
+        margin: 40px auto;
+    }    
+    .imagenMapaGoogle{
+        width: 500px;
+        height: 300px;
+    }
+    .gap{
+        gap: 20px;
+    }
+    .marginReceta{
+        margin: 15px auto;
+    }
+    .altoReceta{
+        height: 500px;
+    }
+    .desplegable{
+        overflow-y: auto;
+    }
+    .marBottomRec{
+        margin-bottom: 20px;
+    }
+    .bodyArticle{
+        flex-direction: column;
+        justify-content:flex-end;
+        align-items:center;
+    }
+    .bodyArticleDesk{
+        flex-direction: row;
+        justify-content:flex-end;
+        align-items:center;
+    }
+    .bodyArticleDeskReverse{
+        flex-direction: row-reverse;
+    }
+    .imagenArticulo{
+        width: 20vw;
+        height: 30vh;
+        object-fit: cover;
+    }
+    .textoContacto{
+        font-size: 1rem;
+        margin-bottom: 5px;
+    }
+    .iconoValor{
+        width: 70px;
+        margin: 20px 10px;
+    }
+    .centerEventos{
+        width: 65%;
+        margin: auto;
+    }
+
+    /* efecto on hover botón formulario START */
+    .button:hover{
+        font-weight: 700;
+        background-color: rgb(8, 83, 16);
+    }
+    /* efecto on hover botón formulario END */
+
+    /* efecto zoom en recetas START */
+    .imagenReceta{
+        height: 100%;
+        object-fit: cover;
+        margin: 0 auto;
+    }
+    .imagenReceta:hover .imgRecetaZoom{
+        transform: scale(1.02);
+    }
+    .imgRecetaZoom{
+        width: 100%;
+        transition: 0.6s all;
+    }
+    .flexNosotros section figure img{
+        border-radius: 50%;
+        margin: 10px;
+    }
+    /* efecto zoom en recetas END */
+
+
+    #contacto{
+        width: 50%;
+    }
+    #galeria{
+        grid-template-columns: repeat(5,1fr);
+        grid-template-rows: repeat(9,1fr);
+        gap: 13px;
+        grid-template-areas:
+        "imgAme9 imgAme8 imgAme7 imgAme6 imgAme5"
+        "imgAme4 imgAme3 imgAme3 imgAme2 imgAme1"
+        "imgAsi1 imgAsi1 imgAsi2 imgAsi4 imgAsi5"
+        "imgAsi3 imgAsi6 imgAsi8 imgAsi12 imgAsi12"
+        "imgAsi7 imgAsi11 imgAsi11 imgAsi9 imgAsi10"
+        "imgMed1 imgMed2 imgMed2 imgMed4 imgMed5"
+        "imgMed6 imgMed6 imgMed3 imgMed7 imgMed7"
+        "imgMed8 imgMed8 imgMed9 imgMed9 imgMed10"
+        "imgMed11 imgMed11 imgMed11 imgMed12 imgMed12"
+    }
+}
