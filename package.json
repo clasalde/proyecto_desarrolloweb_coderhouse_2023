@@ -1,0 +1,24 @@
+{
+  "name": "sass_css",
+  "version": "1.0.0",
+  "description": "FullStack_DesarrolloWeb_Repositorio para la entrega del proyecto final",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "sass",
+		"sass:watch": "sass --watch scss/main.scss  css/styles_tfe.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/clasalde/proyecto_desarrolloweb_coderhouse_2023.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/clasalde/proyecto_desarrolloweb_coderhouse_2023/issues"
+  },
+  "homepage": "https://github.com/clasalde/proyecto_desarrolloweb_coderhouse_2023#readme",
+  "dependencies": {
+    "sass": "^1.58.0"
+  }
+}

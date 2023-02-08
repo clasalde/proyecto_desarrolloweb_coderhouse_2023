@@ -1,0 +1,89 @@
+// paleta de colores
+$mainColor: rgb(26,24,23);
+$secondaryColor: rgb(232,230,230);
+$bgColor: rgb(255,255,255);
+$bgColorGrayAlpha: rgba(26,24,23,0.8);
+$bgTextArticulo: rgba(255, 255, 255, 0.80);
+$sombra: rgba(255, 255, 255, 0.65);
+$precioColor: blue;
+$hoverColor: rgb(0,0,0);
+$separacion: rgba(229, 229, 229, 0.20);
+$buttonHoverForm: rgb(8, 83, 16);
+
+// fonts
+$pFont: 'Quicksand', sans-serif;
+$hFont: 'Merienda', cursive;
+
+// font-weight
+$textLight: 100;
+$textRegular: 300;
+$textBold: 500;
+$textExtraBold: 700;
+
+// espaciado interlineal
+$spaceXs: 1.0rem;
+$spaceSm: 1.4rem;
+$spaceFt: 1.6rem;
+$spaceIn: 1.8rem;
+$spaceMd: 2.0rem;
+$spaceLg: 2.3rem;
+$spaceXl: 3.4rem;
+
+// espaciado entre letras
+$spaceLetter: 0.1rem;
+
+// width (%)
+$w-10: 10%;
+$w-15: 15%;
+$w-20: 20%;
+$w-30: 30%;
+$w-45: 45%;
+$w-50: 50%;
+$w-60: 60%;
+$w-65: 65%;
+$w-70: 70%;
+$w-85: 85%;
+$w-90: 90%;
+$w-100: 100%;
+
+// width (viewport width)
+$wvw-10: 10vw;
+$wvw-15: 15vw;
+$wvw-20: 20vw;
+$wvw-30: 30vw;
+$wvw-45: 45vw;
+$wvw-50: 50vw;
+$wvw-60: 60vw;
+$wvw-65: 65vw;
+$wvw-70: 70vw;
+$wvw-85: 85vw;
+$wvw-90: 90vw;
+$wvw-100: 100vw;
+
+// height (%)
+$h-5: 5%;
+$h-15: 15%;
+$h-30: 30%;
+$h-35: 35%;
+$h-45: 45%;
+$h-55: 55%;
+$h-60: 60%;
+$h-85: 85%;
+$h-100: 100%;
+
+// height (viewport height)
+$hvh-5: 5vh;
+$hvh-10: 10vh;
+$hvh-15: 15vh;
+$hvh-20: 20vh;
+$hvh-25: 25vh;
+$hvh-30: 30vh;
+$hvh-35: 35vh;
+$hvh-45: 45vh;
+$hvh-55: 55vh;
+$hvh-60: 60vh;
+$hvh-70: 70vh;
+$hvh-75: 75vh;
+$hvh-80: 80vh;
+$hvh-85: 85vh;
+$hvh-100: 100vh;

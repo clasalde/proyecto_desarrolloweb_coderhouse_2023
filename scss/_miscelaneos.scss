@@ -1,0 +1,71 @@
+// font-size con MAP
+$fontSize:(
+    'xs': 0.75rem,
+    'parrafo': 1rem,
+    'parrafoTablet': 1.1rem,
+    'parrafoDesktop': 1.2rem,
+    'h1': 2.1rem,
+    'h1Tablet': 2.4rem,
+    'h2': 1.9rem,
+    'h2Tablet': 1.8rem,
+    'h3': 1.7rem,
+    'h3Tablet': 1.6rem,
+    'h4': 1.5rem,
+    'h4Tablet': 1.3rem,
+);
+
+// extend
+.headerConfig{
+    font-family: $hFont;
+    color: $mainColor;
+    text-align: center;
+    margin: auto;
+}
+    
+h1{
+    @extend .headerConfig;
+    font-size: map-get($map: $fontSize, $key:'h1');
+    width: $w-85;
+}
+h2{
+    @extend .headerConfig;
+    font-size: map-get($map: $fontSize, $key:'h2');
+}
+h3{
+    @extend .headerConfig;
+    font-size: map-get($map: $fontSize, $key:'h3');
+}
+h4{
+    @extend .headerConfig;
+    font-size: map-get($map: $fontSize, $key:'h4');
+}
+
+// bucle para crear grilla de platos
+// platos americanos
+@for $item from 1 through 9{
+    .imgAme#{$item}{
+        grid-area: imgAme#{$item};
+    }
+}
+// platos asiáticos
+@for $item from 1 through 12{
+    .imgAsi#{$item}{
+        grid-area: imgAsi#{$item};
+    }
+}
+// platos Mediterráneos
+@for $item from 1 through 12{
+    .imgMed#{$item}{
+        grid-area: imgMed#{$item};
+    }
+}
+
+// mixin
+// utilizado en línea 21 de main.scss
+@mixin box-model($ancho, $alto, $padding, $borde, $margen){
+    width: $ancho;
+    height: $alto;    
+    padding: $padding;
+    border: $borde;
+    margin: $margen;
+}

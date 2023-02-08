@@ -1,0 +1,87 @@
+// galería de fotos - mobile
+#galeria{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(33,1fr);
+    gap: 7px;
+    grid-template-areas:
+    "imgAme1"
+    "imgAme2"
+    "imgAme3"
+    "imgAme4"
+    "imgAme5"
+    "imgAme6"
+    "imgAme7"
+    "imgAme8"
+    "imgAme9"
+    "imgAsi1"
+    "imgAsi2"
+    "imgAsi3"
+    "imgAsi4"
+    "imgAsi5"
+    "imgAsi6"
+    "imgAsi7"
+    "imgAsi8"
+    "imgAsi9"
+    "imgAsi10"
+    "imgAsi11"
+    "imgAsi12"
+    "imgMed1"
+    "imgMed2"
+    "imgMed3"
+    "imgMed4"
+    "imgMed5"
+    "imgMed6"
+    "imgMed7"
+    "imgMed8"
+    "imgMed9"
+    "imgMed10"
+    "imgMed11"
+    "imgMed12";
+    img{
+        width: $w-100;
+        height: 200px;
+        object-fit: cover;
+    }
+}
+
+// grid-area realizada con bucle desde miscelaneos.scss
+
+// galería de fotos - tablet
+@media (min-width:768px){
+    #galeria{
+        grid-template-columns: repeat(3,1fr);
+        grid-template-rows: repeat(11,1fr);
+        grid-template-areas:
+        "imgAme1 imgAme6 imgAme3"
+        "imgAme4 imgAme5 imgAme2"
+        "imgAme7 imgAme8 imgAme9"
+        "imgAsi1 imgAsi2 imgAsi8"
+        "imgAsi4 imgAsi5 imgAsi6"
+        "imgAsi7 imgAsi3 imgAsi9"
+        "imgAsi10 imgAsi11 imgAsi12"
+        "imgMed1 imgMed2 imgMed3"
+        "imgMed4 imgMed5 imgMed6"
+        "imgMed7 imgMed8 imgMed9"
+        "imgMed10 imgMed11 imgMed12";
+    }
+}
+
+// galería de fotos - desktop
+@media (min-width:992px){
+    #galeria{
+        grid-template-columns: repeat(5,1fr);
+        grid-template-rows: repeat(9,1fr);
+        gap: 13px;
+        grid-template-areas:
+        "imgAme9 imgAme8 imgAme7 imgAme6 imgAme5"
+        "imgAme4 imgAme3 imgAme3 imgAme2 imgAme1"
+        "imgAsi1 imgAsi1 imgAsi2 imgAsi4 imgAsi5"
+        "imgAsi3 imgAsi6 imgAsi8 imgAsi12 imgAsi12"
+        "imgAsi7 imgAsi11 imgAsi11 imgAsi9 imgAsi10"
+        "imgMed1 imgMed2 imgMed2 imgMed4 imgMed5"
+        "imgMed6 imgMed6 imgMed3 imgMed7 imgMed7"
+        "imgMed8 imgMed8 imgMed9 imgMed9 imgMed10"
+        "imgMed11 imgMed11 imgMed11 imgMed12 imgMed12"
+    }
+}
